@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="navbar flex justify-between items-center p-1 h-14 ">
+    <div class="navbar flex justify-between items-center p-1 h-14 md:px-24">
         <div class="flex justify-center items-center md:order-2">
             <div class="hamburger inline-block p-4 cursor-pointer md:hidden ">
                 <div class="line h-0.5 w-6 my-1 bg-black "></div>
@@ -24,21 +24,23 @@
 
 
         <div class="logo text-center md:order-1 flex ">
-            <img class="w-28" src="/images/icon.png" alt="">
+            <img class="w-28 mr-3" src="/images/icon.png" alt="">
             <div
-                class="features md:flex md:space-x-2 md:mx-4 absolute inset-0 -translate-x-96 w-fit bg-gray-300 md:w-auto md:bg-white md:translate-x-0 md:static">
-                <div class="feature-items ">Microsoft 365</div>
-                <div class="feature-items ">Office</div>
-                <div class="feature-items ">Windows</div>
-                <div class="feature-items ">Surface</div>
-                <div class="feature-items ">Xbox</div>
-                <div class="feature-items ">Support</div>
+                class="features md:flex md:space-x-4 md:mx-4 absolute inset-0 -translate-x-96 w-fit bg-gray-300 md:w-auto md:bg-white md:translate-x-0 md:static">
+                <div class="feature-items hover:underline hover:underline-offset-8  cursor-pointer text-sm ">Microsoft
+                    365</div>
+                <div class="feature-items hover:underline hover:underline-offset-8 cursor-pointer text-sm">Teams</div>
+                <div class="feature-items hover:underline hover:underline-offset-8 cursor-pointer text-sm">Windows</div>
+                <div class="feature-items hover:underline hover:underline-offset-8 cursor-pointer text-sm">Surface</div>
+                <div class="feature-items hover:underline hover:underline-offset-8 cursor-pointer text-sm">Xbox</div>
+                <div class="feature-items hover:underline hover:underline-offset-8 cursor-pointer text-sm">Support</div>
             </div>
 
         </div>
 
         <div class="cart text-center md:order-3 flex">
-            <div class="search hidden md:block">All Microsoft Search Icon</div>
+            <div class="search hidden md:block hover:underline hover:underline-offset-8  cursor-pointer text-sm">All
+                Microsoft Search Icon</div>
             <div class="flex space-x-5 mr-3">
                 <span>🛒</span>
                 <img class="w-7" src="/images/user.png" alt="">
@@ -69,8 +71,8 @@
     <hr class=" bg-gray-300 w-full ml-0 mt-0 lg:hidden ">
 
 
-    <div class=" section space-y-10 mt-10 mb-10 md:flex md:space-y-0  ">
-        <div class="micro-365 w-fit m-auto md:my-auto ">
+    <div class=" section space-y-10 mt-10 mb-10 md:flex md:space-y-0 lg:mx-80 ">
+        <div class="micro-365 w-fit m-auto  ">
             <img class="mx-auto mb-2" src="/images/windows.webp" alt="">
             <span class="text-blue-btn underline font-semibold">Choose your Microsoft 365</span>
         </div>
@@ -78,7 +80,7 @@
             <img class="mx-auto mb-2" src="/images/surface.webp" alt="">
             <span class="text-blue-btn underline font-semibold">Explore Surface devices</span>
         </div>
-        <div class="x-box_&_win w-fit m-auto flex space-x-10 md:space-x-36 ">
+        <div class="x-box_&_win w-fit m-auto flex space-x-10 md:space-x-36 md:hidden ">
             <div class="Xbox">
                 <img class="mx-auto mb-2 " src="/images/xbox.webp" alt="">
                 <span class="text-blue-btn underline font-semibold">Buy Xbox games</span>
@@ -89,11 +91,74 @@
             </div>
         </div>
 
+        <div class="Xbox hidden md:inline-block md:w-fit m-auto">
+            <img class="mx-auto mb-2 " src="/images/xbox.webp" alt="">
+            <span class="text-blue-btn underline font-semibold">Buy Xbox games</span>
+        </div>
+        <div class="windows hidden md:inline-block md:w-fit m-auto ">
+            <img class="mx-auto mb-2" src="/images/windows.webp" alt="">
+            <span class="text-blue-btn underline font-semibold">Get Windows 11</span>
+        </div>
+
     </div>
 
+    <div class="pannel space-y-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:col-4 m-3 lg:space-x-6 lg:mx-20 md:space-x-6">
+        <div class="item1 hidden">
+            <img class="" src="/images/item1-img.jpg" alt="">
+            <div class="space-y-3 mt-4">
+                <span  class="px-3 py-1 font-semibold bg-[#ffb900]">New</span>
+                <h1 class="text-xl font-semibold" >Surface Pro 9</h1>
+                <p>The tablet flexibility you want and the laptop performance you need — all in one ultra-portable device.</p>
+            </div>
+            <span class="text-[#0067b8] font-semibold mt-10">Learn more ></span>
 
-    <div>
-        
+        </div>
+        <div class="item2 ">
+            <div>
+                <img class="min-w-full"  src="/images/item1-img.jpg" alt="">
+            </div>
+            <div class="space-y-3 mt-4 mb-7">
+                <span  class="px-3 py-1 font-semibold bg-[#ffb900]">New</span>
+                <h1 class="text-xl font-semibold" >Surface Pro 9</h1>
+                <p>The tablet flexibility you want and the laptop performance you need — all in one ultra-portable device.</p>
+            </div>
+            <span class="text-[#0067b8] font-semibold ">Learn more ></span>
+
+        </div>
+
+        <div class="item3">
+            <img class="min-w-full" src="/images/item2-img.jpg" alt="">
+            <div class="space-y-3 mt-4 mb-7">
+                <span class="px-3 py-1 font-semibold bg-[#ffb900]">New</span>
+                <h1 class="text-xl font-semibold">Surface Laptop 5</h1>
+                <p>Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11.</p>
+            </div>
+
+            <span class="  text-[#0067b8] font-semibold ">Learn more ></span>
+
+        </div>
+        <div class="item4">
+            <img class="min-w-full" src="/images/item3-img.jpg" alt="">
+            <div class="space-y-3 mt-4 mb-7">
+                <span class="px-3 py-1 font-semibold bg-[#ffb900]">New</span>
+                <h1 class="text-xl font-semibold">Surface Laptop Studio</h1>
+                <p>Flex your creative muscle on the most powerful Surface Laptop. Now available with Windows 11.</p>
+            </div>
+
+            <span class="text-[#0067b8] font-semibold mt-14">Shop now ></span>
+        </div>
+
+        <div class="item5">
+            <img class="min-w-full" src="/images/item4-img.jpg" alt="">
+            <div class="space-y-3 mt-4 mb-7">
+                <span class="px-3 py-1 font-semibold bg-[#ffb900]">New</span>
+                <h1 class="text-xl font-semibold">Xbox Series X</h1>
+                <p>The fastest, most powerful Xbox ever</p>
+            </div>
+
+            <span class="text-[#0067b8] font-semibold">Shop now ></span>
+        </div>
+
     </div>
 
 
