@@ -38,11 +38,17 @@
 
         </div>
 
-        <div class="cart text-center md:order-3 flex">
+        <div class="cart text-center md:order-3 flex lg:space-x-5 lg:mt-3">
             <div class="search hidden md:block hover:underline hover:underline-offset-8  cursor-pointer text-sm">All
-                Microsoft Search Icon</div>
-            <div class="flex space-x-5 mr-3">
-                <span>🛒</span>
+                Microsoft </div>
+            <div class="search hidden md:block hover:underline hover:underline-offset-8  cursor-pointer text-sm">
+                Search </div>
+            <div class="search hidden md:block hover:underline hover:underline-offset-8  cursor-pointer text-sm">
+                Cart 🛒</div>
+            <div class="search hidden md:block hover:underline hover:underline-offset-8  cursor-pointer text-sm">
+                Sign In </div>
+            <div class="flex space-x-5 mr-3 ">
+                <span class="lg:hidden">🛒</span>
                 <img class="w-7" src="/images/user.png" alt="">
             </div>
         </div>
@@ -74,30 +80,30 @@
     <div class=" section space-y-10 mt-10 mb-10 md:flex md:space-y-0 lg:mx-80 ">
         <div class="micro-365 w-fit m-auto  ">
             <img class="mx-auto mb-2" src="/images/windows.webp" alt="">
-            <span class="text-blue-btn underline font-semibold">Choose your Microsoft 365</span>
+            <span class="text-blue-btn underline font-semibold cursor-pointer">Choose your Microsoft 365</span>
         </div>
         <div class="surface w-fit m-auto md:mb-10">
             <img class="mx-auto mb-2" src="/images/surface.webp" alt="">
-            <span class="text-blue-btn underline font-semibold">Explore Surface devices</span>
+            <span class="text-blue-btn underline font-semibold cursor-pointer">Explore Surface devices</span>
         </div>
         <div class="x-box_&_win w-fit m-auto flex space-x-10 md:space-x-36 md:hidden ">
             <div class="Xbox">
                 <img class="mx-auto mb-2 " src="/images/xbox.webp" alt="">
-                <span class="text-blue-btn underline font-semibold">Buy Xbox games</span>
+                <span class="text-blue-btn underline font-semibold cursor-pointer">Buy Xbox games</span>
             </div>
             <div class="windows ">
                 <img class="mx-auto mb-2" src="/images/windows.webp" alt="">
-                <span class="text-blue-btn underline font-semibold ">Get Windows 11</span>
+                <span class="text-blue-btn underline font-semibold cursor-pointer ">Get Windows 11</span>
             </div>
         </div>
 
         <div class="Xbox hidden md:inline-block md:w-fit m-auto">
             <img class="mx-auto mb-2 " src="/images/xbox.webp" alt="">
-            <span class="text-blue-btn underline font-semibold">Buy Xbox games</span>
+            <span class="text-blue-btn underline font-semibold cursor-pointer">Buy Xbox games</span>
         </div>
         <div class="windows hidden md:inline-block md:w-fit m-auto ">
             <img class="mx-auto mb-2" src="/images/windows.webp" alt="">
-            <span class="text-blue-btn underline font-semibold">Get Windows 11</span>
+            <span class="text-blue-btn underline font-semibold cursor-pointer   ">Get Windows 11</span>
         </div>
 
     </div>
@@ -165,7 +171,7 @@
             <p class="lg:w-fit h-fit mt-3 ">Next-gen performance in the smallest xbox ever</p>
 
             <div class="btn_span space-x-6 mt-7">
-                <button class="btn bg-btn-blue p-3 font-bold text-white bg-blue-btn w-fit pt-2 pb-2">Shop now</button>
+                <button class="btn bg-btn-blue p-3 font-bold text-white bg-blue-btn w-fit pt-2 pb-2 hover:bg-blue-900">Shop now</button>
             </div>
         </div>
 
@@ -242,56 +248,57 @@
 
     <!---FOOTER----------------------------------------------------------------------------------------------------------------------------- -->
 
-    <footer class="grid grid-col-1 lg:grid-cols-6 bg-[#f2f2f2] p-10 mt-20 space-x-20">
+    <footer class="grid grid-col-1 md:grid-cols-3 lg:grid-cols-6 bg-[#f2f2f2] p-10 mt-20 lg:space-x-20 space-y-12 text-[#616161]">
         <div class="0th hidden"></div>
-        <div class="1st">
-            <h1>What's new</h1>
-            <span class="cursor-pointer hover:underline">Microsoft 365</span>
-            <span>Surface Pro X</span>
-            <span>Surface Pro 7</span>
-            <span>Surface Laptop 3</span>
-            <span>Windows 11 apps</span>
+        <div class="1st flex flex-col space-y-4">
+            <h1 class=" text-lg font-medium">What's new</h1>
+            <span class="cursor-pointer hover:underline text-sm">Microsoft 365</span>
+            <span class="text-sm">Surface Pro X</span>
+            <span class="text-sm">Surface Pro 7</span>
+            <span class="text-sm">Surface Laptop 3</span>
+            <span class="text-sm">Windows 11 apps</span>
 
         </div>
-        <div class="2nd">
-            <h1>What's new</h1>
-            <span class="cursor-pointer hover:underline">Microsoft 365</span>
-            <span>Surface Pro X</span>
-            <span>Surface Pro 7</span>
-            <span>Surface Laptop 3</span>
-            <span>Windows 11 apps</span>
+        <div class="2nd flex flex-col space-y-4">
+            <h1 class="text-lg font-medium">Microsoft Store</h1>
+            <span class="cursor-pointer hover:underline text-sm">Microsoft 365</span>
+            <span class="text-sm">Surface Pro X</span>
+            <span class="text-sm">Surface Pro 7</span>
+            <span class="text-sm">Surface Laptop 3</span>
+            <span class="text-sm">Windows 11 apps</span>
         </div>
-        <div class="3rd">
-            <h1>What's new</h1>
-            <span class="cursor-pointer hover:underline">Microsoft 365</span>
-            <span>Surface Pro X</span>
-            <span>Surface Pro 7</span>
-            <span>Surface Laptop 3</span>
-            <span>Windows 11 apps</span>
+        <div class="3rd flex flex-col space-y-4">
+            <h1 class=" text-lg font-medium">Education</h1>
+            <span class="cursor-pointer hover:underline text-sm">Microsoft 365</span>
+            <span class="text-sm">Surface Pro X</span>
+            <span class="text-sm">Surface Pro 7</span>
+            <span class="text-sm">Surface Laptop 3</span>
+            <span class="text-sm">Windows 11 apps</span>
         </div>
-        <div class="4th">
-            <h1>What's new</h1>
-            <span class="cursor-pointer hover:underline">Microsoft 365</span>
-            <span>Surface Pro X</span>
-            <span>Surface Pro 7</span>
-            <span>Surface Laptop 3</span>
-            <span>Windows 11 apps</span>
+        <div class="4th flex flex-col space-y-4">
+            <h1 class=" text-lg font-medium">Business</h1>
+            <span class="cursor-pointer hover:underline text-sm">Microsoft 365</span>
+            <span class="text-sm">Surface Pro X</span>
+            <span class="text-sm">Surface Pro 7</span>
+            <span class="text-sm">Surface Laptop 3</span>
+            <span class="text-sm">Windows 11 apps</span>
         </div>
-        <div class="5th">
-            <h1>What's new</h1>
-            <span class="cursor-pointer hover:underline">Microsoft 365</span>
-            <span>Surface Pro X</span>
-            <span>Surface Pro 7</span>
-            <span>Surface Laptop 3</span>
-            <span>Windows 11 apps</span>
+        <div class="5th flex flex-col space-y-4">
+            <h1 class=" text-lg font-medium">Developer & IT</h1>
+            <span class="cursor-pointer hover:underline text-sm">Microsoft 365</span>
+            <span class="text-sm">Surface Pro X</span>
+            <span class="text-sm">Surface Pro 7</span>
+            <span class="text-sm">Surface Laptop 3</span>
+            <span class="text-sm">Windows 11 apps</span>
         </div>
-        <div class="6th">
-            <h1>What's new</h1>
-            <span class="cursor-pointer hover:underline">Microsoft 365</span>
-            <span>Surface Pro X</span>
-            <span>Surface Pro 7</span>
-            <span>Surface Laptop 3</span>
-            <span>Windows 11 apps</span>
+        <div class="6th flex flex-col space-y-4">
+            <h1 class=" text-lg font-medium">Company</h1>
+            <span class="cursor-pointer hover:underline text-sm ">Microsoft 365</span>
+            <span class="text-sm">Account profile</span>
+            <span class="text-sm">Download Center</span>
+            <span class="text-sm"> Returns</span>
+            <span class="text-sm">Order tracking</span>
+            <span class="text-sm">Microsoft Store Support</span>
         </div>
 
     </footer>
